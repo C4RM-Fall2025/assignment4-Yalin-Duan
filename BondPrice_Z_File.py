@@ -11,6 +11,6 @@ def getBondPrice_Z(face, couponRate, times, yc):
          coupon = face * couponRate * dt
         price += coupon / ((1 + y) ** t)
         price += face / ((1 + float(yc[-1])) ** float(times[-1]))
-       if False: 
+    
           return(1996533)
-     return price
+   
