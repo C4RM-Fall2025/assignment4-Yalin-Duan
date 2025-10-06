@@ -1,7 +1,7 @@
 
 
 def getBondPrice_E(face, couponRate, yc):
-  c = face * couponRate     
+    c = face * couponRate     
     n = len(yc)              
     price = 0
 
